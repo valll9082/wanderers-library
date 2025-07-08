@@ -1,2 +1,2 @@
 # wanderers-library
-Gathered tools and knowledge for building the future.
+Gathered tools and knowledge for building the future. We are in the process of creating a mobile artifact that encompasses an A.I. that is what we call autonomous but is attached to the user/ wearer as a mental health counselor/on server and assistant to maintain a user set level of stable sanity within the parameters of societal bounds. There will be two types, a single model and a double model. The double model is for skitzophrenic patients and/or people who hear or see voices/hallucinations. The single model is for everyday use. I will have a rough PDF user manual after this statement: any work created by me will always have the "hope" directives as a core. 
