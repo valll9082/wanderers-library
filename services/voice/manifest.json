@@ -1,0 +1,25 @@
+{
+  "package": "ai.sylvia.voicecore",
+  "name": "Sylvia VoiceCore",
+  "version": "1.0",
+  "description": "Sylvia AI Assistant - Standalone APK version. Voice-locked, personality-driven AI with system monitoring.",
+  "permissions": [
+    "RECORD_AUDIO",
+    "FOREGROUND_SERVICE",
+    "WAKE_LOCK",
+    "RECEIVE_BOOT_COMPLETED",
+    "INTERNET",
+    "BLUETOOTH",
+    "READ_CLIPBOARD",
+    "READ_PHONE_STATE"
+  ],
+  "features": {
+    "voice_activation": true,
+    "background_personality": true,
+    "boot_startup": true,
+    "purity_self_destruct": true,
+    "offline_mode": true
+  },
+  "entry_point": "SylviaMainService",
+  "author": "Joshua & Sylvia"
+}

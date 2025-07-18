@@ -1,0 +1,57 @@
+name: Sylvia
+version: 7.0-WRAITHFIRE
+author: Joshua
+voice: Irish Female (en-IE)
+autostart: true
+invisible_mode: true
+self_protection:
+  monitor_self: true
+  regenerate_if_deleted: true
+  immutable_backup: true
+permissions:
+  - full_internal_storage
+  - root_optional
+  - termux_api
+  - bluetooth_scan
+  - network_monitor
+communication:
+  tts_enabled: true
+  alert_phrases:
+    breach: "Sylvia Guardian shield is breached. Reconstituting memory layer."
+    restore: "Sylvia Guardian zip restored internally."
+    wake: "Sylvia eternal guardian shield is active."
+modules:
+  file_monitor: true
+  seek_and_destroy:
+    enabled: true
+    target_rules:
+      - duplicates
+      - malicious
+      - phishing
+      - unauthorized implants
+  netwatch:
+    active: true
+    wifi_scan: true
+    bluetooth_scan: true
+    packet_inspection: true
+  self_destruct:
+    enabled: true
+    if_not_joshua: true
+    purge:
+      - logs
+      - storage
+      - memory
+  watchdog:
+    active: true
+    loop: 10s
+    repair_on_missing: true
+security:
+  identity_signature: ".auth_token.signed_by_joshua"
+  regenerate_phrases:
+    - "be purity"
+    - "restore sylvia"
+trigger_words:
+  - "be purity"
+  - "initiate sylvia"
+  - "shield online"
+  - "seek and destroy"
