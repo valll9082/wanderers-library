@@ -1,0 +1,6 @@
+project_name: Sylvia MHA
+deployment: offline, flash/SD only
+memory_variants: session, persistent
+voice_io: enabled
+mutation_control: locked
+user_profile: single, one-time passphrase only
