@@ -1,0 +1,1 @@
+// Irish female voice interaction handler
